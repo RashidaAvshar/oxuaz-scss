@@ -16,17 +16,17 @@ header {
   height: 80px;
   background-color: blue;
 }
-header .first-header {
+header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 80px;
 }
-header .first-header nav a {
+header .header nav a {
   color: white;
 }
-header .first-header .ul {
+header .header .ul {
   display: flex;
   flex-direction: row;
   width: 100%;
