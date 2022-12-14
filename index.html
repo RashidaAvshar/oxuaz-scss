@@ -10,21 +10,23 @@
 <body>
 
     <div class="container">
-        <a href="#"><img src="" alt="reklambanner"></a>
+        <div class="reklam">
+            <a href="#"><img src="./assets/image/merry-christmas-banner.jpg" alt="reklambanner"></a>
+        </div>        
     </div>
     <!-- start header -->
     <header>
         <div class="container">
             <div class="header">
-                <div class="image">
-                    <figure>
-                        <a href="#"><img src="" alt="logo"></a>
-                    </figure>
+                <div class="logo">
+                    <a href="#">oxu.az</a>
                 </div>                
                 <nav>
-                    <ul>
+                    <ul class="about">
                         <li><a href="#">Haqqımızda</a></li>
                         <li><a href="#">Reklam</a></li>
+                    </ul>
+                    <ul class="social">
                         <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
@@ -33,13 +35,14 @@
                         <li><a href="#"><i class="fa-brands fa-apple"></i></a></li>
                     </ul>
                     <ul>
-                        <li><input type="search"></li>
+                        <li class="search">
+                            <input type="search" placeholder="Axtarış">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
                         <li><a href="#">RU</a></li>
                     </ul>   
                 </nav>              
-
             </div>
-            
         </div>
     </header>
 
@@ -48,7 +51,7 @@
 
     <!-- start main -->
     <main>
-        <div class="contaniner">
+        <div class="container">
             <div class="main-header">
                 <ul>
                     <li><a href="#">Baş səhifə</a></li>
@@ -62,6 +65,7 @@
                     <li><a href="#">Mədəniyyət</a></li>
                 </ul>
                 <form action="">
+                    <i class="fa-solid fa-bars"></i>
                     <select name="" id="">
                         <option value=""><a href="#">Dünya</a> </option>
                         <option value=""><a href="#">Avto</a> </option>
@@ -73,19 +77,46 @@
                         <option value=""><a href="#">BAku TV</a> </option>
                         <option value=""><a href="#">Cinamaplus</a> </option>
                     </select>
-                    
                 </form>
-
-
             </div>
-
-
+            <section>
+                <div class="container">
+                    <div class="card">
+                        <a href="#">
+                            <div class="anons">
+                                <figure>
+                                    <img src="./assets/image/ilham.jpg" alt="anons">
+                                </figure>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="date"><span>14 Dek 16.35 <span>2541</span></span></div>                            
+                                <p>
+                                    Əliyev-Ərdoğan-Berdiməhəmmədov görüşündə vurğu ediləcək məsələlər - TƏHLİL
+                                </p>
+                            </div>
+                        </a>
+                        <div class="twocard">
+                            <a href="#">
+                                <figure>
+                                    <img src="" alt="">
+                                    <img src="" alt="">
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="" alt="">
+                                    <img src="" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
-
-
     </main>
-
+<!-- end main  -->
 
     <!-- icon script -->
     <script src="https://kit.fontawesome.com/385a791c18.js" crossorigin="anonymous"></script>
