@@ -215,72 +215,91 @@ main{
         }
     }
     // section cardss
-    .card-box{
-        width: 250px;
-        height: 350px;
-        position: relative;
-
-    .card-box:hover{
+    section{
+        .cards{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        a:hover{
+            box-shadow: 11px 4px 19px -9px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 11px 4px 19px -9px rgba(0,0,0,0.61);
+    -moz-box-shadow: 11px 4px 19px -9px rgba(0,0,0,0.61);
+        }
         
 
-}
-        img{
+    
+        .card-box{
             width: 250px;
-            height: 160px;
-            
-        }
-        .date{
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 0px;
-            span{
-            width: 40px;
-            height: 40px;
-            background-color: rgba(127, 255, 212, 0.203);
-            text-align: center;            
-            padding: 3px;
-            margin-bottom: 3px;
-            font-size: 12px;
-            font-weight: 600;
-            }
-            .clock{
-                height: 20px;
-                background-color: #00193c69;
+            height: 400px;
+            position: relative;
+            margin: 10px;
 
-            }
-        }
-        p{
+           
             
-            width: 250px;
-            color: rgb(29, 10, 227);
-            padding: 15px;
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .icon{
-            color: rgb(129, 122, 122);
-            display: flex;
-            justify-content: space-around;
-            padding: 5px;
-            align-items: center;
-            span{
-                 width: 80px;
-                height: 30px;
-                text-align: center;
-                padding: 5px;
-                border right: 1px solid #d2cccc;
+    
+        
+            img{
+                width: 250px;
+                height: 160px;
+                
+            }
+            .date{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 0px;
+                span{
+                width: 40px;
+                height: 40px;
+                background-color: rgba(127, 255, 212, 0.203);
+                text-align: center;            
+                padding: 3px;
+                margin-bottom: 3px;
+                font-size: 12px;
+                font-weight: 600;
+                }
+                .clock{
+                    height: 20px;
+                    background-color: #00193c69;
+    
+                }
+            }
+            p{
+                border: 1px solid rgb(185, 181, 181);
+                width: 250px;
+                height: 170px;
+                color: rgb(29, 10, 227);
+                padding: 15px;
+                font-size: 20px;
+                
+            }
+            .icon{
                 color: rgb(129, 122, 122);
-            }
-            .like:hover{
-                background-color: green;
-            }
-            .dislike:hover{
-                background-color: red;
+                display: flex;
+                justify-content: space-around;
+                padding: 5px;
+                align-items: center;
+                span{
+                     width: 80px;
+                    height: 30px;
+                    text-align: center;
+                    padding: 5px;
+                    border-right: 1px solid #d2cccc;
+                    color: rgb(129, 122, 122);
+                }
+                .like:hover{
+                    background-color: green;
+                }
+                .dislike:hover{
+                    background-color: red;
+                }
+                
             }
             
+    
         }
-        
-
     }
 }

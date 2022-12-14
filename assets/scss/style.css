@@ -182,22 +182,34 @@ main section .card .twocard .link {
   width: 200px;
   height: 80px;
 }
-main .card-box {
-  width: 250px;
-  height: 350px;
-  position: relative;
+main section .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-main .card-box img {
+main section a:hover {
+  box-shadow: 11px 4px 19px -9px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 11px 4px 19px -9px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 11px 4px 19px -9px rgba(0, 0, 0, 0.61);
+}
+main section .card-box {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  margin: 10px;
+}
+main section .card-box img {
   width: 250px;
   height: 160px;
 }
-main .card-box .date {
+main section .card-box .date {
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 0px;
 }
-main .card-box .date span {
+main section .card-box .date span {
   width: 40px;
   height: 40px;
   background-color: rgba(127, 255, 212, 0.203);
@@ -207,33 +219,36 @@ main .card-box .date span {
   font-size: 12px;
   font-weight: 600;
 }
-main .card-box .date .clock {
+main section .card-box .date .clock {
   height: 20px;
   background-color: rgba(0, 25, 60, 0.4117647059);
 }
-main .card-box p {
+main section .card-box p {
+  border: 1px solid rgb(185, 181, 181);
   width: 250px;
+  height: 170px;
   color: rgb(29, 10, 227);
   padding: 15px;
   font-size: 20px;
-  margin-bottom: 20px;
 }
-main .card-box .icon {
+main section .card-box .icon {
+  color: rgb(129, 122, 122);
   display: flex;
   justify-content: space-around;
   padding: 5px;
   align-items: center;
 }
-main .card-box .icon span {
+main section .card-box .icon span {
   width: 80px;
   height: 30px;
   text-align: center;
   padding: 5px;
-  border: 1px solid #d2cccc;
+  border-right: 1px solid #d2cccc;
+  color: rgb(129, 122, 122);
 }
-main .card-box .icon .like:hover {
+main section .card-box .icon .like:hover {
   background-color: green;
 }
-main .card-box .icon .dislike:hover {
+main section .card-box .icon .dislike:hover {
   background-color: red;
 }/*# sourceMappingURL=style.css.map */
