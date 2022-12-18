@@ -70,6 +70,7 @@ header{
             justify-content: left;
         }
         .about{
+            
             font-size: 13px;
             font-weight: 600;
         }
@@ -108,30 +109,30 @@ header{
             position: relative;   
         }
     }
-    // @media only screen and (min-width: 300px) {
-    //     header{
-    //         width: 100%;
-    //         background-color: #00193c;
-    //         .header{
-    //             width: 100%;
-    //             background-color: #00193c;
-    //         }
-    //     }
-    //     nav{
-    //         display: none;
-    //         .social{
-    //             display: none;
-    //         }
-    //         .search{
-    //             width: 30px;
-    //             input{
-    //                 display: none;
-    //             }
-    //         }
+    @media only screen and (max-width: 600px) {
+        header{
+            background-color: #00193c;
+            .header{
+                width: 100%;
+                background-color: #00193c;
+            }
+        }
+        nav{
+            display: none;
+            .social{
+                display: none;
+            }
+            .search{
+                width: 30px;
+                
+            }
+            .about{
+                width: 100%;
+            }
 
-    //     }
+        }
         
-    // }
+    }
 }
 
 main{

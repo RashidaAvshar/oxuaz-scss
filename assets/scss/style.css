@@ -99,6 +99,27 @@ header .search input {
   width: 150px;
   position: relative;
 }
+@media only screen and (max-width: 600px) {
+  header header {
+    background-color: #00193c;
+  }
+  header header .header {
+    width: 100%;
+    background-color: #00193c;
+  }
+  header nav {
+    display: none;
+  }
+  header nav .social {
+    display: none;
+  }
+  header nav .search {
+    width: 30px;
+  }
+  header nav .about {
+    width: 100%;
+  }
+}
 
 main .main-top {
   background-color: #000000;
